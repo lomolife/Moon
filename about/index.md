@@ -1,37 +1,59 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
-date: 2016-03-21
+title: 叶俊含的个人简历
+tags: [个人简历]
+date: 2016-06-23
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<center><b>22岁 · 中南民族大学 · 智能科学与技术 · 492262927@qq.com</b></center>
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+## 教育经历
+ 中南民族大学2013级计科院
 
-## Preview
 
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+## 项目经验
 
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
+移动web app开发
+<figcaption>2016.05-至今</figcaption>
+为某项目组微信公众号开发移动端网页。  
+描述：  
+1. 使用 frozenui 快速的搭建前端框架，页面交互用到轮播图的 JS 组件、选项卡组件，其余页面交互如页 面的点击事件的绑定原生 JS 来实现，页面布局用媒体查询来兼容不同尺寸的手机屏幕。  
+2. 使用到高德地图的 JS API，实现定位当前手机浏览器的精确位置，然后根据用户当前位置的经度纬度与 商家的经纬度进行距离计算，之后返回在用户一定半径范围的商家到页面。  
+3. 用户可选择附近的商家在线提交订单，收藏、评论等功能  目前正处于项目前期，已做好商家详情、商家列表页面。  Github 项目地址: https://github.com/lomolife/99IPet
 
-## Getting Started
+大创（国家级）
+<figcaption>2014.12-2016.03</figcaption>
+自行车多动能监测系统。
+我主要做：  
+1.使用 HTML+CSS+JS 项目官网静态页面的代码的编写.  
+2.git 项目管理.包括 git 仓库项目的创建和删除，或 hbuilder 部署项目到设置好的云服务器上.  
+3.关系数据库的设计.使用 phpmyadmin 创建数据库及表。表中数据包括用户名、邮箱、地址、意见反馈、单 片机传送自行车的状态的数据等.  
+4.PHP 实现表单提交到云数据库中.  
+5.使用高德地图 JSAPI 实时返回经度纬度等信息.  Github 项目地址: https://github.com/lomolife/dachuang_gcxw15011
 
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+“湖北之声”专题网
+<figcaption>2016.03.25-03.26 </figcaption>
+主题：湖北文化.
+1.类似于某些旅游景点里面可点击的页面终端，介绍湖北文化. 
+2.页面分为首页和六个子页面.  
+3.两个晚上赶完7个纯前端页面. 
+4.主要使用 jquer 完成页面效果.
+
+
+
+## 自我描述
+
+大一下学期加入学校的学生互联网团队的沉淀：  
+● 在做项目过程中，与学校资讯集团旗下的各个社团都有一定沟通，在这个过程中提升了我的沟通交流能 力，了解了互联网产品。  
+● 在团队中认识一些能力很强的人，从他们身上我找到了适合我的学习技巧。  
+● 在团队中为产品组的一名成员，熟悉产品的策划、开发、迭代等过程，也参与官微等运营及推广。  
+大二参与大创项目的积累：  
+● 学习前端的知识，并且学习后台相关的语言。  
+● 能够独立的写出一个简单的静态页面。  
+● 接触 webapp，开始了解移动端网页各种规范。  
+大三的项目积累：  
+● 接触和使用移动端的前端框架比如腾讯手 Q 的 frozenui，现在正在做的项目的 ui 就是用它搭建的。  
+● 理解了 ajax 异步加载，能运用在开发过程中需要的地方。  
+● 理解了标签语义化、前端性能优化。
+
